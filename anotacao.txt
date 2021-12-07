@@ -6,3 +6,17 @@ npm install --save-dev typescript
 
 Bibliotecas padroes do node para ter auto complit nessas bibliotecas
 npm install --save-dev @types/node
+
+
+npm install --save express
+
+
+npm install --save-dev @types/express
+
+
+node ./dist/index.js
+
+
+express é um gerenciador de rotas 
+é alguem que nos permite receber e devolver as coisas 
+É uma biblioteca para gerenciar rotas http
