@@ -20,3 +20,7 @@ node ./dist/index.js
 express é um gerenciador de rotas 
 é alguem que nos permite receber e devolver as coisas 
 É uma biblioteca para gerenciar rotas http
+
+
+
+npm install --save-dev ts-node-dev
