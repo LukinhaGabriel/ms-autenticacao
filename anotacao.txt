@@ -1,0 +1,8 @@
+npm install -g typescript
+tsc --init
+
+converter typeScript em javascript
+npm install --save-dev typescript
+
+Bibliotecas padroes do node para ter auto complit nessas bibliotecas
+npm install --save-dev @types/node

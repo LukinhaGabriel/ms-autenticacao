@@ -1,0 +1,17 @@
+{
+  "name": "ms-autenticacao",
+  "version": "1.0.0",
+  "description": "Microservice criado com node",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./",
+    "build": "tsc -p ."
+  },
+  "author": "Lucas Gabriel Moya",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "typescript": "^4.5.2"
+  }
+}
