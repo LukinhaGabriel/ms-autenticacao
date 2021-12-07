@@ -24,3 +24,10 @@ express é um gerenciador de rotas
 
 
 npm install --save-dev ts-node-dev
+
+
+
+
+
+//http://localhost:3000/123
+//http://localhost:3000/users?name="Lucas"
