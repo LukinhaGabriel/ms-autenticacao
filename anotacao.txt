@@ -25,6 +25,7 @@ express é um gerenciador de rotas
 
 npm install --save-dev ts-node-dev
 
+npm install --save http-status-code
 
 
 
