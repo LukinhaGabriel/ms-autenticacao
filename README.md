@@ -1,6 +1,17 @@
-# CRUD Desenvolvido com NodeJS
+# Microserviço de autenticação com NodeJS
 
-Esse projeto foi desenvolvido para aprender a NodeJS onde foi construido
-um crud.
+Esse projeto foi desenvolvido para aprender NodeJS.
 Curso: Digital Innovation ONE
 Ministrado por Renan Johannsen
+
+## Composição do projeto
+Neste projeto Temos alguns Endpoints Base.
+
+São eles:
+
+* GET /users
+* GET /users/:uuid
+* POST /users/:uuid
+* PUT /users/:uuid
+* DELETE /users/:uuid
+
