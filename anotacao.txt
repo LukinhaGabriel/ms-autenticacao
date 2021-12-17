@@ -36,3 +36,9 @@ npm install --save http-status-code
 Banco de dados
 https://www.npmjs.com/package/pg
 typeScript: npm install --save-dev @types/pg
+
+
+Token
+npm install jsonwebtoken
+npm install --save-dev @types/jsonwebtoken
+

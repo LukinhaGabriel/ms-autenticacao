@@ -1,4 +1,4 @@
-import { Router, Request, Response, NextFunction, response } from "express";
+import { Router, Request, Response, NextFunction} from "express";
 import { StatusCodes } from 'http-status-codes';
 import DatabaseError from "../models/errors/database.error.model";
 import userRepository from "../repositories/user.repository";
@@ -13,6 +13,7 @@ const usersRoute = Router();
 
 usersRoute.get('/users', async (req: Request, res: Response, next: NextFunction) => {
     try{
+        
         const user = await userRepository.findAllUsers();
         //StatusCodes.OK == 200
         res.status(StatusCodes.OK).send(user);
