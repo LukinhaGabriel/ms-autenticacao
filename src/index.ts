@@ -5,7 +5,7 @@ import mainRoute from './routes/main-routes';
 import statusRoute from './routes/status.route';
 import usersRoute from './routes/users.route';
 import authorizationRoute from './routes/authorization.route';
-import bearerAuthenticationMiddleware from './middlewares/bearer-authentication.middleware';
+import jwtAuthenticationMiddleware from './middlewares/jwt-authentication.middleware';
 
 const app = express();
 const port = 3000;
@@ -17,8 +17,10 @@ app.use(express.urlencoded({ extended: true }));
 //Configurações de Rotas
 app.use(mainRoute);
 app.use(statusRoute);
-app.use(bearerAuthenticationMiddleware, usersRoute);
 app.use(authorizationRoute);
+
+app.use(jwtAuthenticationMiddleware);
+app.use(usersRoute);
 
 //Configuração dos Handlers de Erro
 app.use(errorHandler);
