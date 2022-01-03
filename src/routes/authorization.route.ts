@@ -18,7 +18,7 @@ authorizationRoute.post('/token', basicAuthenticationMiddleware, async (req: Req
 
       const JwtPayload = { username: user.username };
       const jwtOptions = { subject: user?.uuid };
-      const secretKey = 'my_secret_key';
+      const secretKey = `${process.env.SECRET}`;
 
       const jwt = JWT.sign(JwtPayload, secretKey, jwtOptions);
 

@@ -15,3 +15,8 @@ São eles:
 * PUT /users/:uuid
 * DELETE /users/:uuid
 
+Autenticação
+
+* POST /token
+* POST /token/validate
+
